@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    background-color: #999;
+}
+
+.navLinks{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    list-style: none;
+}
+
+.footer{
+    text-align: center;
+    padding: 1.5rem 3rem;
+    background-color: #999;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
